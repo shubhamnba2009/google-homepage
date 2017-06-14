@@ -1,0 +1,30 @@
+*{
+    font-family: Arial;
+}
+#upper{
+    float:right;
+    padding: 20px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a.cen{
+    position:relative;
+    bottom:15px;
+    padding: 10px;
+}
+button{
+    position: relative;
+    border-color: dodgerblue;
+    bottom:15px;
+    height:40px;
+    width: 80px;
+    background: dodgerblue;
+    color: white;
+    font-size: 17px;
+    font-family: arial,sans-serif;
+}
