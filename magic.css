@@ -3,10 +3,10 @@
     font-size: 13px;
     color: #5b5d60;
 }
-/*Image css coding*/
+/*Google Logo Image CSS coding*/
 #of-log{
   width:auto;
-  height:201px;
+  height:130px;
   padding-top: 109px;
 }
 #in-log{
@@ -19,15 +19,52 @@
   width: 272px;
 }
 
-#search-form{
+/*Google Input and google voice icon CSS coding*/
+.search-form{
   text-align: center;
 }
 #input-div{
-  width:80%;
-  border: 2px solid black;
+  width:584px;
+  height:44px;
+  box-shadow: 0 1px 5px #888888;
   margin:auto;
 }
+#search-box{
+    width: 528px;
+    height:44px;
+    float:left;
+}
+#search-icon{
+    width:56px;
+    height:44px;
+    float: left;
+    text-align: center;
+}
+.search-text{
+    width: 503px;
+    height: 34px;
+    border: none;
+    border-color: transparent;
+}
+#voice-icon{
+    width: 18px;
+    height: 23px;
+}
 
+/*Buttons CSS Codig*/
+#button-se{
+    width:584px;
+    height:58px;
+    text-align: center;
+    position: relative;
+    top:18px;
+    margin:auto;
+}
+
+#centar{
+    margin: auto;
+    padding: 11px;
+}
 /*App menu drawere CSS*/
 img{
   position: relative;
@@ -37,6 +74,10 @@ img{
 }
 
 /*Button CSS*/
+#pp{
+    position: relative;
+    left:5px;
+}
 .button {
 	display: inline-block;
 	background-color: #f5f5f5;
@@ -45,7 +86,7 @@ img{
 	background-image: -ms-linear-gradient(top,#f5f5f5,#f1f1f1);
 	background-image: -o-linear-gradient(top,#f5f5f5,#f1f1f1);
 	background-image: linear-gradient(top,#f5f5f5,#f1f1f1);
-	color: #444;
+	color: #757575;
 
 	border: 1px solid #dcdcdc;
 	-webkit-border-radius: 2px;
@@ -53,11 +94,11 @@ img{
 	border-radius: 2px;
 
 	cursor: default;
-	font-size: 11px;
+	font-size: 13px;
 	font-weight: bold;
 	text-align: center;
-	height: 27px;
-	line-height: 27px;
+	height: 36px;
+	line-height: 36px;
 	min-width: 54px;
 	padding: 0 8px;
 	text-decoration: none;
@@ -88,6 +129,9 @@ img{
 	background-image: linear-gradient(top,#4d90fe,#4787ed);
 
 	border: 1px solid #3079ED;
+    height: 27px;
+    line-height: 27px;
+    min-width: 54px;
 	color: white;
 }
 .button.blue:hover {
@@ -122,4 +166,17 @@ a:hover{
 }
 a.cen{
     padding: 10px;
+}
+
+.footer-eg{
+    text-align: center;
+    position: relative;
+    top:23px;
+}
+a.lang-link{
+    color: #1A0DAB;
+    padding: 5px;
+}
+p{
+    color: black;
 }
